@@ -2,23 +2,46 @@
 
 <head>
     <title>Simon Cobb - ToDo List</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
-    <h1>My ToDo Application</h1>
+    <div id="heading">
+    <h1 id="heading">My ToDo Application</h1>
+    </div>
+    <div id="div1">
+        Div 1
+    </div>
+    <div id="div2">
+        Div 2
+    </div>
+    <span class="my-span">
+        some text
+    </span>
+    <span class="my-span">
+        some  longer text sijdfjhsdjfhsjdfh that takes up more space
+    </span>
+    <span class="my-span">
+       small
+    </span>
     <form action="/action_page.php">
         <input type="text" name="todoInput">
         <input type="submit" value="Add">
     </form>
     <p>Things to do: 2</p>
     <table>
-        <tr>
+        <tr class="task-row">
             <td>A first task</td>
             <td><button type="button">Done</button></td>
             <td><button type="button">Delete</button></td>
         </tr>
-        <tr>
-            <td>A second task</td>
+        <tr class="task-row" id="middle-row">
+            <td>Feed the dog</td>
+            <td><button type="button">Done</button></td>
+            <td><button type="button">Delete</button></td>
+        </tr>
+        <tr class="task-row">
+            <td>A third task</td>
             <td><button type="button">Done</button></td>
             <td><button type="button">Delete</button></td>
         </tr>
