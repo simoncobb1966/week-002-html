@@ -1,3 +1,5 @@
+
+
 body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: black;
@@ -36,7 +38,7 @@ input[type=button], input[type=submit], input[type=reset] {
 
 #heading {
     color: white;
-    text-decoration: underline;
+    text-decoration: underline white;
     background: black;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -105,4 +107,11 @@ input[type=button], input[type=submit], input[type=reset] {
     /*   display: none;
  */
     color: red;
+}
+
+@media only screen and (max-width:600px) {
+    h1 {
+        color:red ;
+        text-decoration: underline red;
+    }
 }
