@@ -1,6 +1,12 @@
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
     <title>Simon Cobb - ToDo List</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
@@ -12,38 +18,30 @@
 
     <div id="wholepage">
         <div id="enter_todo">
-            Enter your to do item in this box then hit "Add" to add to the list
+            <p>Enter your to do item in this box then hit "Add" to add to the list</p>
             <span class="form">
                 <input type="text" name="todoInput">
-                <input type="submit" value="Add">
+                <button type="button" class="btn btn-success">Success</button>
             </span>
 
-        </div>
-        <div id="todolist">
-            <p>Things to do: 2</p>
-            <table>
-                <tr class="task-row">
-                    <td>A first task</td>
-                    <td><button type="button" class="donebutton">Done</button></td>
-                    <td><button type="button" class="deletebutton">Delete</button></td>
-                </tr>
-                <tr class="task-row" id="middle-row">
-                    <td>Feed the dog</td>
-                    <td><button type="button" class="donebutton">Done</button></td>
-                    <td><button type="button" class="deletebutton">Delete</button></td>
-                </tr>
-                <tr class="task-row">
-                    <td>A third task</td>
-                    <td><button type="button" class="donebutton">Done</button></td>
-                    <td><button type="button" class="deletebutton">Delete</button></td>
-                </tr>
-            </table>
-        </div>
-        <div id="gap">
+        </div>                
+        <div id="todolist">              
+            <p>Things to do: 2</p>      
 
-        </div>
-        <div id="bottom">
-            © Simon Cobb 2019
+
+
+            <p>first task</p>
+            <button type="button" class="btn btn-success">Done</button>
+            <button type="button" class="btn btn-danger">Delete</button>
+
+
+            <p>Feed the dog</p>
+            <button type="button" class="btn btn-success">Done</button>
+            <button type="button" class="btn btn-danger">Delete</button>
+
+            <p>third task</p>
+            <button type="button" class="btn btn-success">Done</button>
+            <button type="button" class="btn btn-danger">Delete</button>
         </div>
     </div>
     <!-- <img src="docs/todo_list_image_1.jpg" alt="to do list image" height="400" width="240"> -->

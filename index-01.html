@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <title>Simon Cobb - ToDo List</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div id="outerdiv" class="container-fluid">
+        <div class="row">
+
+            <div id="heading">
+                <h1>My ToDo Application</h1>
+            </div>
+
+            <div id="wholepage">
+                <div id="enter_todo">
+                    <p class="text-center">Enter your to do item in this box then hit "Add" to add to the list</p>
+
+                    <span class="form">
+                        <input type="text" name="todoInput">
+                        <button type="button" class="btn btn-secondary">Add To List</button>
+
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 head">
+                    <div id="todolist">
+                        <p class="text-center">Things to do: 2</p>
+
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 second">
+                                <p class="text-center">A first task - Feed the dog and the cat and the duck and the cow
+                                    and the cute sheep </p>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 second"></div>
+                            <button type="button" class="btn btn-success">Done</button>
+                            <button type="button" class="btn btn-danger">Delete</button>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 third">
+                        <p class="text-center">Feed the dog and the cat and the duck and the cow and the cute sheep
+                            <button type="button" class="btn btn-success">Done</button>
+                            <button type="button" class="btn btn-danger">Delete</button>
+                        </p>
+                    </div>
+
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 first">
+                        <p class="text-center"> A third task
+                            <button type="button" class="btn btn-success">Done</button>
+                            <button type="button" class="btn btn-danger">Delete</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <img src="docs/todo_list_image_1.jpg" alt="to do list image" height="400" width="240"> -->
+        </div>
+        <div id="bottom">
+            © Simon Cobb 2019
+        </div>
+    </div>
+</body>
+
+<!--
+Todo Dynamic Parts
+input section
+"Things to do" - can change to "Thing to do" or "Nothing to do"
+Number that quantifies amount of things to do
+The task description for each task 
+-->
+
+</html>
