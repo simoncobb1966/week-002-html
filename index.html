@@ -7,45 +7,67 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Simon Cobb - ToDo List</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
-    <div id="heading">
-        <h1>My ToDo Application</h1>
-    </div>
+    <div class="container">
+        <div id="wholepage">
+            <div id="heading">
+                <h1>My ToDo Application</h1>
+            </div>
+            <div id="enter_todo">
+                <p>Enter your to do item in this box then hit "Add" to add to the list</p>
+                <div class="form">
+                    <input type="text" name="todoInput">
+                    <button type="button" class="btn btn-success">Success</button>
+                </div>
 
-    <div id="wholepage">
-        <div id="enter_todo">
-            <p>Enter your to do item in this box then hit "Add" to add to the list</p>
-            <span class="form">
-                <input type="text" name="todoInput">
-                <button type="button" class="btn btn-success">Success</button>
-            </span>
-
-        </div>                
-        <div id="todolist">              
-            <p>Things to do: 2</p>      
-
-
-
-            <p>first task</p>
-            <button type="button" class="btn btn-success">Done</button>
-            <button type="button" class="btn btn-danger">Delete</button>
+            </div>
+            <div id="todolist">
+                <p>Things to do: 2</p>
 
 
-            <p>Feed the dog</p>
-            <button type="button" class="btn btn-success">Done</button>
-            <button type="button" class="btn btn-danger">Delete</button>
+                <div class="bigScreen">
+                    <p>(1) BIG Dentists at 2pm on Monday. Root treatment
+                        <button type="button" class="btn btn-success">Done</button>
+                        <button type="button" class="btn btn-danger">Delete</button>
+                    </p>
+                    <p>(2) Check broadband pricing - contract up for renewal
+                    <button type="button" class="btn btn-success">Done</button>
+                    <button type="button" class="btn btn-danger">Delete</button>
+                </p>
+                    <p>(3) Bradford City V Coventry. 3pm @ coventry
+                    <button type="button" class="btn btn-success">Done</button>
+                    <button type="button" class="btn btn-danger">Delete</button>
+                </p>
+                </div>
 
-            <p>third task</p>
-            <button type="button" class="btn btn-success">Done</button>
-            <button type="button" class="btn btn-danger">Delete</button>
+                <div class="smallScreen">
+                    <p>(1) SMALL Dentists at 2pm on Monday. Root treatment</p>
+                    <button type="button" class="btn btn-success">Done</button>
+                    <button type="button" class="btn btn-danger">Delete</button>
+
+                    <p>(2) Check broadband pricing - contract up for renewal</p>
+                    <button type="button" class="btn btn-success">Done</button>
+                    <button type="button" class="btn btn-danger">Delete</button>
+    
+                    <p>(3) Bradford City V Coventry. 3pm @ coventry </p>
+                    <button type="button" class="btn btn-success">Done</button>
+                    <button type="button" class="btn btn-danger">Delete</button>
+
+                </div>
+            </div>
+            <div id="bottom">
+                <p>(c) Simon Cobb 2019</p>
+            </div>
+
         </div>
-    </div>
-    <!-- <img src="docs/todo_list_image_1.jpg" alt="to do list image" height="400" width="240"> -->
 
+        <!-- <img src="docs/todo_list_image_1.jpg" alt="to do list image" height="400" width="240"> -->
+    </div>
 </body>
 
 <!--
