@@ -13,60 +13,47 @@
 </head>
 
 <body>
-    <div class="container">
-        <div id="wholepage">
-            <div id="heading">
-                <h1>My ToDo Application</h1>
-            </div>
-            <div id="enter_todo">
-                <p>Enter your to do item in this box then hit "Add" to add to the list</p>
-                <div class="form">
-                    <input type="text" name="todoInput">
-                    <button type="button" class="btn btn-success">Success</button>
-                </div>
 
-            </div>
-            <div id="todolist">
-                <p>Things to do: 2</p>
-
-
-                <div class="bigScreen">
-                    <p>(1) BIG Dentists at 2pm on Monday. Root treatment
-                        <button type="button" class="btn btn-success">Done</button>
-                        <button type="button" class="btn btn-danger">Delete</button>
-                    </p>
-                    <p>(2) Check broadband pricing - contract up for renewal
-                    <button type="button" class="btn btn-success">Done</button>
-                    <button type="button" class="btn btn-danger">Delete</button>
-                </p>
-                    <p>(3) Bradford City V Coventry. 3pm @ coventry
-                    <button type="button" class="btn btn-success">Done</button>
-                    <button type="button" class="btn btn-danger">Delete</button>
-                </p>
-                </div>
-
-                <div class="smallScreen">
-                    <p>(1) SMALL Dentists at 2pm on Monday. Root treatment</p>
-                    <button type="button" class="btn btn-success">Done</button>
-                    <button type="button" class="btn btn-danger">Delete</button>
-
-                    <p>(2) Check broadband pricing - contract up for renewal</p>
-                    <button type="button" class="btn btn-success">Done</button>
-                    <button type="button" class="btn btn-danger">Delete</button>
-    
-                    <p>(3) Bradford City V Coventry. 3pm @ coventry </p>
-                    <button type="button" class="btn btn-success">Done</button>
-                    <button type="button" class="btn btn-danger">Delete</button>
-
-                </div>
-            </div>
-            <div id="bottom">
-                <p>(c) Simon Cobb 2019</p>
-            </div>
-
+    <div id="wholeSite">
+        <div id="heading">
+            <p>Todo List Maker</p>
         </div>
-
-        <!-- <img src="docs/todo_list_image_1.jpg" alt="to do list image" height="400" width="240"> -->
+        <div class="container">
+                <form>
+            <div id="input">
+                
+                <input type="text" name="todoInput" placeholder="Enter your todo here">
+                <button type="button" class="btn btn-success">Enter</button>
+            
+            </div>
+        </form>
+            <div class="row mainList">
+                <div class="col-lg-9 col-sm-12 col-md-8 test1">
+                    <p>(1b) BIG Dentists at 2pm on Monday. Root treatment</p>
+                </div>
+                <div class="col-lg-3 col-sm-12 col-md-4 test2">
+                    <button type="button" class="btn btn-success">Done</button>
+                    <button type="button" class="btn btn-danger">Delete</button>
+                </div>
+                <div class="col-lg-9 col-sm-12 col-md-8 test1">
+                    <p>(2b) Check broadband pricing - contract up for renewal </p>
+                </div>
+                <div class="col-lg-3 col-sm-12 col-md-4 test2">
+                    <button type="button" class="btn btn-success">Done</button>
+                    <button type="button" class="btn btn-danger">Delete</button>
+                </div>
+                <div class="col-lg-9 col-sm-12 col-md-8 test1">
+                    <p>(3b) Bradford City V Coventry. 3pm @ coventry</p>
+                </div>
+                <div class="col-lg-3 col-sm-12 col-md-4 test2">
+                    <button type="button" class="btn btn-success">Done</button>
+                    <button type="button" class="btn btn-danger">Delete</button>
+                </div>
+            </div>
+        </div>
+        <div id="bottom">
+            <p>(c) Simon Cobb 2019</p>
+        </div>
     </div>
 </body>
 
