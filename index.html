@@ -13,56 +13,49 @@
 </head>
 
 <body>
-
-    <div id="wholeSite">
-        <div id="heading">
-            <p>Todo List Maker</p>
-        </div>
-        <div class="container">
-                <form>
-            <div id="input">
-                
-                <input type="text" name="todoInput" placeholder="Enter your todo here">
-                <button type="button" class="btn btn-success">Enter</button>
-            
+    <div class="container">
+        <div id="wholeSite">
+            <div id="heading">
+                <p>Todo List Maker</p>
             </div>
-        </form>
+            <form>
+                <div class="form-group" id="input">
+                    <textarea class="form-control" id="todoInput" rows="1"
+                        placeholder="Enter your todo here"></textarea>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
             <div class="row mainList">
-                <div class="col-lg-9 col-sm-12 col-md-8 test1">
-                    <p>(1b) BIG Dentists at 2pm on Monday. Root treatment</p>
+                <div class="col-lg-9 col-sm-12 col-md-8 todoText" id="todo1"> 
+                    <p>(1) Dentists at 2pm on Monday. Root treatment</p>
                 </div>
-                <div class="col-lg-3 col-sm-12 col-md-4 test2">
-                    <button type="button" class="btn btn-success">Done</button>
-                    <button type="button" class="btn btn-danger">Delete</button>
+                <div class="col-lg-3 col-sm-12 col-md-4">
+                    <button type="button" class="btn btn-success buttona">Done</button>
+                    <button type="button" class="btn btn-danger buttona">Delete</button>
                 </div>
-                <div class="col-lg-9 col-sm-12 col-md-8 test1">
-                    <p>(2b) Check broadband pricing - contract up for renewal </p>
+                <div class="col-lg-9 col-sm-12 col-md-8 todoText" id="todo2">
+                    <p>(2) Check broadband pricing - contract up for renewal </p>
                 </div>
-                <div class="col-lg-3 col-sm-12 col-md-4 test2">
-                    <button type="button" class="btn btn-success">Done</button>
-                    <button type="button" class="btn btn-danger">Delete</button>
+                <div class="col-lg-3 col-sm-12 col-md-4">
+                    <button type="button" class="btn btn-success buttona">Done</button>
+                    <button type="button" class="btn btn-danger buttona">Delete</button>
                 </div>
-                <div class="col-lg-9 col-sm-12 col-md-8 test1">
-                    <p>(3b) Bradford City V Coventry. 3pm @ coventry</p>
+                <div class="col-lg-9 col-sm-12 col-md-8 todoText" id="todo3">
+                    <p>(3) Bradford City V Coventry. 3pm @ coventry</p>
                 </div>
-                <div class="col-lg-3 col-sm-12 col-md-4 test2">
-                    <button type="button" class="btn btn-success">Done</button>
-                    <button type="button" class="btn btn-danger">Delete</button>
+                <div class="col-lg-3 col-sm-12 col-md-4">
+                    <button type="button" class="btn btn-success buttona">Done</button>
+                    <button type="button" class="btn btn-danger buttona">Delete</button>
                 </div>
+                <element class="btn btn-primary notifications">
+                    Number of items <span class="badge badge-light">3</span>
+                </element>
             </div>
-        </div>
-        <div id="bottom">
-            <p>(c) Simon Cobb 2019</p>
+            <div id="bottom">
+                <p>&copy Simon Cobb 2019</p>
+            </div>
         </div>
     </div>
 </body>
-
-<!--
-Todo Dynamic Parts
-input section
-"Things to do" - can change to "Thing to do" or "Nothing to do"
-Number that quantifies amount of things to do
-The task description for each task 
--->
 
 </html>
